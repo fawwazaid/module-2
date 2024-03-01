@@ -1,19 +1,22 @@
-How to deploy on Netlify
+## How to deploy on Netlify
 1. Sign in on your netlify account
 2. deploy new website from existing project(github)
+![add-new-site](img/add-new-site.png)
+![deploy-github](img/deploy-github.png)
 3. buy a domain name from niagahoster
 4. integrate you dns with your new website
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/J5s2e_vk)
+    <li>Go to Netlify domain management after add domain name to netlify, then you'll se the awaiting external DNS link</li>
 
-## About the website
+    ![domain-management](img/domain-management.png)
 
-The website showcases a web developer's page with a strong interest in machine learning. Its structure comprises both the head and body sections, with the body divided into distinct segments: header, main content, and footer. Within the main content area, HTML elements are styled to enhance presentation, including tables for organizing information and a form for user interaction.
+    <li>Click on that, and you got the DNS</li>
 
-![here is some picture about machine learning](https://th.bing.com/th/id/OIP.BpoJ1Iy7AW8dM3lzumB-FwAAAA?rs=1&pid=ImgDetMain)
+    ![dns-config](img/dns-config.png)
 
-## Update about the website
+    <li>You can copy the address to niagahoster DNS nameservers/li>
 
-This is addition for responsive web page using flex and sticky header.
-this is the attached link : [Module Assignment Week 1 Website](https://fwzdevsweb.netlify.app/)
+    ![niagahoster](img/niagahoster.png)
 
-<a href="https://openai.com" target="_blank">OpenAI Website</a>
+    And done after maybe 24 hours...
+
+    this is the attached link : [Module Assignment Week 2 Website](https://fwzdev.netlify.app/) or [here](http://cyber2club.online/)  
