@@ -1,398 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>This is DEV's Web</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
-    <link rel="stylesheet" href="rain.css" />
-    <link
-      rel="icon"
-      href="https://w7.pngwing.com/pngs/338/134/png-transparent-github-repository-programmer-software-developer-github-purple-mammal-cat-like-mammal.png"
-      type="image/x-icon"
-    />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cyber2club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo">Cyber2Club</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
 
-  <body>
-    <nav>
-      <span class="mobile">
-        <img
-          src="https://cdn1.iconfinder.com/data/icons/material-design-icons-light/24/hamburger-1024.png"
-          alt="Hamburger Icon"
-        />
-      </span>
-      <span class="relative-container">
-        <img
-          src="https://w7.pngwing.com/pngs/338/134/png-transparent-github-repository-programmer-software-developer-github-purple-mammal-cat-like-mammal.png"
-          alt="icon"
-        />
-        <b>Web Dev's Club</b>
-      </span>
-    </nav>
-    <header class="full-screen" id="header">
-      <h1>This is Now Web Dev's Club</h1>
-      <p>This is not official yet</p>
-    </header>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#facilities">FACILITIES</a></li>
+                    <li><a href="#testi">TESTIMONIALS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" nclick="showMenu()"></i>
 
-    <main>
-      <section class="flex-container">
-        <div class="container">
-          <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-              <div></div>
-              <div></div>
-            </div>
-            <div class="splash"></div>
-            <div class="particles">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
+        </nav>
+        
+    <div class="text-box" id="home">
+        <h1>Welcome to our Internet Cafe</h1>
+        <h2>OPEN 24 HOURS</h2>
+        <p>GAMING . WATCHING . DINING</p>
+        <a href="#contact" class="hero-btn">Book Now!</a>
+    </div>   
+    </section>
 
-          <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-              <div></div>
-              <div></div>
-            </div>
-            <div class="splash"></div>
-            <div class="particles">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
 
-          <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-              <div></div>
-              <div></div>
+    <section class="about" id="about">
+        <h1>Our Internet Cafe</h1>
+        <p></p>
+        <p>We've been established since 2022 till now, our mottos are:</p>
+        <ul>
+            <li>Where the Games Never End, and the Fun Never Stops!</li>
+            <li>Elevate Your Gaming Experience to the Next Level.</li>
+            <li>Unleash Your Inner Gamer in the Ultimate Gaming Hub.</li>
+        </ul>
+        <div class="row">
+            <div class="about-col">
+                <img src="https://watermark.lovepik.com/photo/50041/3971.jpg_wh1200.jpg" alt="Coworking Area">
+                <div class="layer">
+                    <h3>Coworking Area</h3>
+                </div>
+                <div class="about1-col">
+                    <h3>Coworking Area</h3>
+                    <p>Good place to get the s**t done</p>
+                </div>
             </div>
-            <div class="splash"></div>
-            <div class="particles">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+            <div class="about-col">
+                <img src="https://th.bing.com/th/id/OIP.zTSiO4W_0Jc0QFjK8ox3WAAAAA?w=474&h=355&rs=1&pid=ImgDetMain" alt="E-sport Area">
+                <div class="layer">
+                    <h3>E-sport Area</h3>
+                </div>
+                <div class="about1-col">
+                    <h3>E-Sport Area</h3>
+                    <p>Mastering you favorite MOBA never been so comfortable with our gaming setup.</p>
+                </div>
             </div>
-          </div>
-
-          <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-              <div></div>
-              <div></div>
+            <div class="about-col">
+                <img src="https://th.bing.com/th/id/OIP.Q-VSc0OPz4SpJocTe_5dPQHaFj?w=2560&h=1920&rs=1&pid=ImgDetMain" alt="Simulator Area">
+                <div class="layer">
+                    <h3>Simulator Area</h3>
+                </div>
+                <div class="about1-col">
+                    <h3>Simulator Area</h3>
+                    <p>VR, Simulator or even VMC we got your back!</p>
+                </div>
             </div>
-            <div class="splash"></div>
-            <div class="particles">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-
-          <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-              <div></div>
-              <div></div>
-            </div>
-            <div class="splash"></div>
-            <div class="particles">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-
-          <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-              <div></div>
-              <div></div>
-            </div>
-            <div class="splash"></div>
-            <div class="particles">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-
-          <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-              <div></div>
-              <div></div>
-            </div>
-            <div class="splash"></div>
-            <div class="particles">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-
-          <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-              <div></div>
-              <div></div>
-            </div>
-            <div class="splash"></div>
-            <div class="particles">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-
-          <div class="rain">
-            <div class="drop"></div>
-            <div class="waves">
-              <div></div>
-              <div></div>
-            </div>
-            <div class="splash"></div>
-            <div class="particles">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
         </div>
-        <h2>Welcome to Our Website</h2>
-        <p>Theese are our club activity.</p>
-      </section>
-      <section id="penguin-photos">
-        <h2>Activity Photos</h2>
-        <div class="grid-container">
-          <div class="penguin-photo-item" id="item-1">
-            <img
-              src="https://images.alphacoders.com/943/943149.jpg"
-              alt="Sightseeing Class."
-            />
-          </div>
-          <div class="penguin-photo-item" id="item-2">
-            <img
-              src="https://i.pinimg.com/originals/83/a8/80/83a8802ed1dc8c026451b036cf1d0df9.jpg"
-              alt="Revou Class."
-            />
-          </div>
-          <div class="penguin-photo-item" id="item-3">
-            <img
-              src="https://th.bing.com/th/id/OIP.DR2sx1M9jzjsnBfmq7AmuwHaEK?rs=1&pid=ImgDetMain"
-              alt="Riding Class."
-            />
-          </div>
-          <div class="penguin-photo-item" id="item-4">
-            <img
-              src="https://e0.pxfuel.com/wallpapers/824/191/desktop-wallpaper-snake-eyes-katana-ninja-neon-ninja.jpg"
-              alt="Sword Class."
-            />
-          </div>
-          <div class="penguin-photo-item" id="item-5">
-            <img
-              src="https://images.expothemes.com/cyberpunk/images/cyberpunk-windows-theme-40-hd.jpg"
-              alt="Shooting Class."
-            />
-          </div>
+    </section>
+    <section class="facilities" id="facilities">
+        <h1>Our Facilities</h1>
+       
+        <div class="row">
+            <div class="facilities-col">
+                <img src="https://media.timeout.com/images/103848985/630/472/image.jpg">
+                <h3>Cinema</h3>
+                <p>Tired of gaming? you can sit down and relax while wathing you favorite movies and anime.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://wallpapercave.com/wp/wp7833537.jpg">
+                <h3>Cafetaria</h3>
+                <p>We have plenty food and drink to enjoy!</p>
+            </div>            
+            <div class="facilities-col">
+                <img src="https://s3.voyapon.com/wp-content/uploads/2021/02/22200331/mangacafe_Lucia_16.jpg">
+                <h3>Library</h3>
+                <p>We have all the book references you to help you with your researches, and also mangas.</p>
+            </div>
         </div>
-      </section>
-      <section id="penguin-facts">
-        <h2>Club Membership</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
-          commodo tortor. Nullam eget nulla ultricies, consectetur libero vel,
-          aliquam libero.
-        </p>
-        <div class="flex-container">
-          <ul class="check-list">
-            <li>Annual Membership</li>
-            <li>Monthly Membership</li>
-          </ul>
-          <figure>
-            <picture>
-              <source
-                media="(max-width: 480px)"
-                srcset="https://wallpaperaccess.com/full/2440929.jpg"
-              />
-              <img
-                src="https://wallpaperaccess.com/full/1761194.jpg"
-                alt="girl cyberpunk."
-              />
-            </picture>
 
-            <figcaption>Come <em>join</em> us!.</figcaption>
-          </figure>
-        </div>
-      </section>
-      <section class="py-12 md:py-24 lg:py-32">
-        <div class="container px-4 md:px-6">
-          <h2
-            class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl"
-          >
-            Let's get in touch !
-          </h2>
-          <form
-            class="mt-4 grid gap-4 md:grid-cols-2 md:gap-6"
-            action="mailto:fawwazaid@gmail.com"
-            method="post"
-            enctype="text/plain"
-          >
-            <label for="Name">Name</label>
-            <input
-              type="text"
-              name="yourName"
-              value=""
-              placeholder="your name .."
-            /><br />
-            <br />
-            <label for="Email">Email</label>
-            <input
-              type="text"
-              name="urEmail"
-              value=""
-              placeholder="email pls.."
-            /><br />
-            <br />
-            <label for="age"
-              >Input your age (years):
-              <input
-                id="age"
-                type="number"
-                name="age"
-                min="13"
-                max="120"
-                placeholder="min 13 y.o." /></label
-            ><br />
-            <br />
-            <label for="referrer"
-              >How did you hear about us?
-              <br />
-              <select id="referrer" name="referrer">
-                <option value="">(select one)</option>
-                <option value="1">Email</option>
-                <option value="2">YouTube Channel</option>
-                <option value="3">Friend</option>
-                <option value="4">Other..</option>
-              </select> </label
-            ><br />
-            <fieldset>
-              <legend>Whats you favorite programming language?</legend>
-              <label
-                ><input
-                  id="javascript"
-                  type="radio"
-                  name="programming-language"
-                  value="javascript"
-                  checked
-                />
-                Javascript</label
-              >
-              <label
-                ><input
-                  id="python"
-                  type="radio"
-                  name="programming-language"
-                  value="python"
-                />
-                Python</label
-              >
-              <label
-                ><input
-                  id="Java"
-                  type="radio"
-                  name="programming-language"
-                  value="Java"
-                />
-                Java</label
-              >
-              <label
-                ><input
-                  id="C++"
-                  type="radio"
-                  name="programming-language"
-                  value="C++"
-                />
-                C++</label
-              >
-              <label
-                ><input
-                  id="Ruby"
-                  type="radio"
-                  name="programming-language"
-                  value="Ruby"
-                />
-                Ruby</label
-              >
-            </fieldset>
-            <br />
-            <fieldset>
-              <legend>What's your programmer's personality?</legend>
-              <input
-                id="The Innovator"
-                type="checkbox"
-                name="personality"
-                value="The Innovator"
-                checked
-              />
-              <label for="The Innovator">The Innovator</label>
-              <input
-                id="The Perfectionist:"
-                type="checkbox"
-                name="personality"
-                value="The Perfectionist"
-              />
-              <label for="The Perfectionist">The Perfectionist</label>
-              <input
-                id="The Problem Solver"
-                type="checkbox"
-                name="personality"
-                value="The Problem Solver"
-              />
-              <label for="The Problem Solver">The Problem Solver</label>
-              <input
-                id="The Collaborator"
-                type="checkbox"
-                name="personality"
-                value="The Collaborator"
-              />
-              <label for="The Collaborator">The Collaborator</label>
-            </fieldset>
-            <br />
-            <label for="Leave your comment below"
-              >Leave your comment below 👇</label
-            ><br />
-            <br />
-            <textarea
-              name="Text Here"
-              id="Who"
-              cols="30"
-              rows="4"
-              placeholder="please write something"
-            ></textarea
-            ><br />
-            <input type="submit" name="PUSH" />
-          </form>
-        </div>
-      </section>
-    </main>
+    </section>
 
-    <footer class="footer">
-      <p>&copy; no Copyright</p>
-    </footer>
-  </body>
+
+    <section class="cta" id="contact">
+        <h1>Book your favorite Internet Cafe Here!!!</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer" id="footer">
+        <h4>About Us</h4>
+        <p>Easy to book your PC, more discount, more game choice, 24h online and more</p>
+        <p>&copy;2024 Cyber2Club</p>
+    </section>
+
+
+    <script>
+        let navLinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
 </html>
